@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: url(../assets/Hoodmt.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+}
+
+.Header {
+background-color: rgba(2, 215, 201, 0.297);
+text-align: center;
+
+
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s linear;
+}
+
+a:hover {
+  color: yellow;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 30pt;
+  padding-top: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+
+}
